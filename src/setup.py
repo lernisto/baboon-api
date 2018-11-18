@@ -14,6 +14,7 @@ setup(
         [console_scripts]
         newsite=baboon.cli:newsite
         newpost=baboon.cli:newpost
+        newuser=baboon.cli:newuser
         wsgi=baboon.wsgi:run
     ''',
 )
